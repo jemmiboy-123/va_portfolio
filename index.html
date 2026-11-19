@@ -188,7 +188,7 @@
     @keyframes pipe{to{background-position:8px 0}}
 
     /* toolbox */
-    .skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
     .skill{position:relative;overflow:hidden;display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);transition:border-color .2s,transform .2s}
     .skill:hover{border-color:rgba(var(--accent-rgb),.4);transform:translateY(-2px)}
     .skill[hidden]{display:none}
@@ -259,7 +259,7 @@
     <div class="shell nav">
       <a class="brand" href="#top" aria-label="John James Llentic, home"><span class="brand-mark"><img src="logo.png" alt=""></span>John James Llentic</a>
       <nav class="nav-links" id="navlinks" aria-label="Main">
-        <a href="#about">About</a><a href="#services">Services</a><a href="#work">Sample work</a><a href="#process">Process</a><a href="#toolbox">Toolbox</a><a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#services">Services</a><a href="#work">Sample work</a><a href="#process">Process</a><a href="#toolbox">Skills</a><a href="#contact">Contact</a>
       </nav>
       <a class="nav-cta" href="#contact"><i></i>Available</a>
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
@@ -434,28 +434,15 @@
     <section class="section" id="toolbox">
       <div class="shell">
         <div class="section-topline reveal">
-          <div><p class="section-kicker"><b>//</b> 05. TOOLBOX</p><h2>The tools I use<br><span class="gradient-text">every day.</span></h2></div>
-        </div>
-        <div class="filters reveal" role="group" aria-label="Filter tools">
-          <button class="chip-btn" data-skill="all" aria-pressed="true">All</button>
-          <button class="chip-btn" data-skill="amazon" aria-pressed="false">Amazon</button>
-          <button class="chip-btn" data-skill="research" aria-pressed="false">Research</button>
-          <button class="chip-btn" data-skill="work" aria-pressed="false">Productivity</button>
-          <button class="chip-btn" data-skill="dev" aria-pressed="false">Design &amp; Dev</button>
+          <div><p class="section-kicker"><b>//</b> 05. SKILLS</p><h2>What I'm<br><span class="gradient-text">good at.</span></h2></div>
         </div>
         <div class="skills">
-          <div class="skill reveal" data-cat="amazon"><span class="skill-ico">SC</span><div><strong>Seller Central</strong><small>Amazon</small></div></div>
-          <div class="skill reveal" data-cat="amazon"><span class="skill-ico">Ad</span><div><strong>Amazon Ads</strong><small>Amazon</small></div></div>
-          <div class="skill reveal" data-cat="amazon"><span class="skill-ico">FBA</span><div><strong>FBA Shipments</strong><small>Amazon</small></div></div>
-          <div class="skill reveal" data-cat="amazon"><span class="skill-ico">A+</span><div><strong>A+ Content</strong><small>Amazon</small></div></div>
-          <div class="skill reveal" data-cat="research"><span class="skill-ico">H10</span><div><strong>Helium 10</strong><small>Research</small></div></div>
-          <div class="skill reveal" data-cat="research"><span class="skill-ico">JS</span><div><strong>Jungle Scout</strong><small>Research</small></div></div>
-          <div class="skill reveal" data-cat="research"><span class="skill-ico">Ali</span><div><strong>Alibaba</strong><small>Sourcing</small></div></div>
-          <div class="skill reveal" data-cat="work"><span class="skill-ico">GW</span><div><strong>Google Workspace</strong><small>Productivity</small></div></div>
-          <div class="skill reveal" data-cat="work"><span class="skill-ico">Xl</span><div><strong>Excel / Sheets</strong><small>Productivity</small></div></div>
-          <div class="skill reveal" data-cat="work"><span class="skill-ico">#</span><div><strong>Slack</strong><small>Communication</small></div></div>
-          <div class="skill reveal" data-cat="dev"><span class="skill-ico">Cv</span><div><strong>Canva</strong><small>Design</small></div></div>
-          <div class="skill reveal" data-cat="dev"><span class="skill-ico">&lt;/&gt;</span><div><strong>HTML / CSS / JS</strong><small>Web dev</small></div></div>
+          <div class="skill reveal"><span class="skill-ico">01</span><div><strong>Product Research</strong></div></div>
+          <div class="skill reveal"><span class="skill-ico">02</span><div><strong>Keyword Research</strong></div></div>
+          <div class="skill reveal"><span class="skill-ico">03</span><div><strong>Listing Optimization</strong></div></div>
+          <div class="skill reveal"><span class="skill-ico">04</span><div><strong>PPC Optimization</strong></div></div>
+          <div class="skill reveal"><span class="skill-ico">05</span><div><strong>Inventory Management</strong></div></div>
+          <div class="skill reveal"><span class="skill-ico">06</span><div><strong>Account Management</strong></div></div>
         </div>
       </div>
     </section>
